@@ -28,7 +28,7 @@ export default class Albums extends React.Component {
                         <img src={album.artworkUrl100} className="card-img-top" alt={album.collectionName} />
                         <div className="card-body">
                             <h5 className="card-tile">{album.collectionName}</h5>
-                            <p className="card-text>{album.artistName}</p>
+                            <p className="card-text">{album.artistName}</p>
                             <p className="card-text"><Moment format="MMM D YYYY">{album.releaseDate}</Moment></p>
                         </div>
                         
