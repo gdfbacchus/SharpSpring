@@ -1,3 +1,11 @@
+There was some warnings including a high severity vulnerability warning that apparently has to do with the dependencies with create-react-app as per this issue: https://github.com/facebook/create-react-app/issues/6790. I was hoping that they would find a solution to it before I sent it in as seeing a high severity warning always bugs me but seems they haven't found a real solution to it yet. It's possible to make the warning go away but not really the vulnerability which is worse in my opinion. Finally, I didn't want to wait any longer and decided that since it was in a dependency of a dependency and this is just a sample code not for any production environment that I would commit it anyway. For this application I used create-react-app, Axios, react-bootstrap and moment libraries. 
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
